@@ -14,7 +14,7 @@
 
 3. Suppose img is a (32,32,3) array, representing a 32x32 image with 3 color channels red, green and blue. How do you reshape this into a column vector $x$?
 
-    > **x = img.reshape((32*32*3, 1))**
+    > **x = img.reshape((32\*32\*3, 1))**
 
 ---
 
@@ -57,10 +57,7 @@
 
    What is the result of $a*a$ ?
 
-    > **$\begin{pmatrix}
-        4 & 1 \\
-        1 & 9
-    \end{pmatrix}$**
+    > $\left \lparen \matrix {4 & 1 \cr 1 & 9} \right \rparen$
 
 ---
 
@@ -88,7 +85,7 @@
 
    $b.shape = (3, 3)$
 
-   $c = a**2 + b.T**2$
+   $c = a\*\*2 + b.T\*\*2$
 
    Which of the following gives an equivalent output for $c$?
     
