@@ -11,11 +11,11 @@
 ---
 
 1. Which of the following best describes the role of AI in the expression "an AI-powered society"?
-
+✔️
    - [x] AI controls the power grids for energy distribution, so all the power needed for industry and in daily life comes from AI.
    - [ ] AI helps to create a more efficient way of producing energy to power industries and personal devices.
    - [ ] AI is an essential ingredient in realizing tasks, in industry and in personal life.
-    > <span style="color: red;">**Incorrect**</br>No. There will always be areas in the world where AI is not a feasible option because of lack of infrastructures.</span>
+    > ✖️ <span style="color: red;">**Incorrect**</br>No. There will always be areas in the world where AI is not a feasible option because of lack of infrastructures.</span>
 
 ---
 
@@ -26,7 +26,7 @@
     - [ ] Smaller models.
     - [x] Large amounts of data.
     - [ ] Deep learning has resulted in significant improvements in important applications such as online advertising, speech recognition, and image recognition.
-    > <span style="color: red;">**Incorrect**.</br>You didn't select all the correct answers</span>
+    > ✖️ <span style="color: red;">**Incorrect**.</br>You didn't select all the correct answers</span>
 
 ---
 
@@ -37,7 +37,7 @@
     - [x] Improvements in the GPU/CPU hardware enable the discovery of better Deep Learning algorithms.
     - [ ] Larger amounts of data allow researchers to try more ideas and then produce better algorithms in less time.
     - [x] Better algorithms can speed up the iterative process by reducing the necessary computation time
-    > <spane style="color: green;">**Correct**</br>Great, you got all the right answers.</span>
+    > ✔️ <spane style="color: green;">**Correct**</br>Great, you got all the right answers.</span>
 
 ---
 
@@ -45,7 +45,7 @@
 
     - [ ] False
     - [x] True
-    > <span style="color: green;">**Correct**</br>Exactly, with neural networks, we don't need to "design" features by ourselves. The neural network figures out the necessary relations given enough data.</span>
+    > ✔️ <span style="color: green;">**Correct**</br>Exactly, with neural networks, we don't need to "design" features by ourselves. The neural network figures out the necessary relations given enough data.</span>
 
 ---
 
@@ -55,17 +55,17 @@
     - [ ] ![q5_f2.png](img/q5_f2.png)
     - [x] ![q5_f3.png](img/q5_f3.png)
     - [ ] ![q5_f4.png](img/q5_f4.png)
-    > <spane style="color: green;">**Correct**</br>This is the ReLU activation function, the most used in neural networks.</span>
+    > ✔️ <spane style="color: green;">**Correct**</br>This is the ReLU activation function, the most used in neural networks.</span>
 
 ---
 
-1. Which of the following are examples of unstructured data? Choose all that apply.
+6. Which of the following are examples of unstructured data? Choose all that apply.
 
     - [x] Sound files for speech recognition
     - [x] Images for bird recognition
     - [ ] Information about elephants’ weight, height, age, and the number of offspring.
     - [x] Text describing size and number of pages of books
-    > <spane style="color: green;">**Correct**</br>Great, you got all the right answers.</span>
+    > ✔️ <spane style="color: green;">**Correct**</br>Great, you got all the right answers.</span>
 
 ---
 
@@ -73,7 +73,7 @@
 
     - [ ] True
     - [x] False
-    > <spane style="color: green;">**Correct**</br>A demographic dataset with statistics on different cities' population, GDP per capita, and economic growth is an example of “structured” data in contrast to image, audio or text datasets.</span>
+    > ✔️ <spane style="color: green;">**Correct**</br>A demographic dataset with statistics on different cities' population, GDP per capita, and economic growth is an example of “structured” data in contrast to image, audio or text datasets.</span>
 
 ---
 
@@ -81,7 +81,7 @@
 
     - [ ] False
     - [x] True
-    > <spane style="color: green;">**Correct**</br>Yes, RNN are designed to work with sequences; the elements of a sequence can be sorted by a temporal component.</span>
+    > ✔️ <spane style="color: green;">**Correct**</br>Yes, RNN are designed to work with sequences; the elements of a sequence can be sorted by a temporal component.</span>
 
 ---
 
@@ -92,14 +92,14 @@
     - [x] x-axis is the amount of data</br>y-axis (vertical axis) is the performance of the algorithm
     - [ ] x-axis is the performance of the algorithm</br>y-axis (vertical axis) is the amount of data.
     - [ ] x-axis is the amount of data</br>y-axis is the size of the model you train.
-    > <spane style="color: green;">**Correct**</span>
+    > ✔️ <spane style="color: green;">**Correct**</span>
 
 ---
 
-1.  Assuming the trends described in the previous question's figure are accurate (and hoping you got the axis labels right), which of the following are true? (Check all that apply.)
+10. Assuming the trends described in the previous question's figure are accurate (and hoping you got the axis labels right), which of the following are true? (Check all that apply.)
 
     - [ ] Decreasing the size of a neural network generally does not hurt an algorithm’s performance, and it may help significantly.
     - [ ] Decreasing the training set size generally does not hurt an algorithm’s performance, and it may help significantly.
     - [x] Increasing the training set size generally does not hurt an algorithm's performance, and it may help significantly
     - [x] Increasing the size of neural network generally does not hurt an algorithm's performance, and it may help significantly
-    > <spane style="color: green;">**Correct**</br>Great, you got all the right answers.</span>
+    > ✔️ <spane style="color: green;">**Correct**</br>Great, you got all the right answers.</span>
