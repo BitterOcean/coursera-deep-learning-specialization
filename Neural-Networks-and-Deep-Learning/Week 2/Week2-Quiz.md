@@ -16,27 +16,27 @@
     - [ ] A neuron computes an activation function followed by a linear function $z = Wx+b$
     - [ ] A neuron computes a function g that scales the input x linearly $(Wx + b)$
     - [x] A neuron computes a linear function $z = Wx + b$ followed by an activation function
-    > <spane style="color: green;">**Correct**</br>Correct, we generally say that the output of a neuron is a = g(Wx + b) where g is the activation function (sigmoid, tanh, ReLU, ...).</span>
+    > ✔️ <spane style="color: green;">**Correct**</br>Correct, we generally say that the output of a neuron is a = g(Wx + b) where g is the activation function (sigmoid, tanh, ReLU, ...).</span>
 
 ---
 
 2. Which of these is the "Logistic Loss"?
 
-    - [ ] $\mathcal{L}^{(i)}(\hat{y}^{(i)}, y^{(i)}) = |0, y^{(i)} - \hat{y}^{(i)}|^{2}$
-    - [ ] $\mathcal{L}^{(i)}(\hat{y}^{(i)}, y^{(i)}) = |0, y^{(i)} - \hat{y}^{(i)}|$
+    - [ ] $\mathcal{L}^{(i)}(\hat{y}^{(i)}, y^{(i)}) = |y^{(i)} - \hat{y}^{(i)}|^{2}$
+    - [ ] $\mathcal{L}^{(i)}(\hat{y}^{(i)}, y^{(i)}) = |y^{(i)} - \hat{y}^{(i)}|$
     - [ ] $\mathcal{L}^{(i)}(\hat{y}^{(i)}, y^{(i)}) = max(0, y^{(i)} - \hat{y}^{(i)})$
     - [x] $\mathcal{L}^{(i)}(\hat{y}^{(i)}, y^{(i)}) = -(y^{(i)} \log(\hat{y}^{(i)}) + (1-y^{(i)})\log(1-\hat{y}^{(i)}))$
-    > <spane style="color: green;">**Correct**</br>Correct, this is the logistic loss you've seen in lecture!</span>
+    > ✔️ <spane style="color: green;">**Correct**</br>Correct, this is the logistic loss you've seen in lecture!</span>
 
 ---
 
-1. Suppose img is a (32,32,3) array, representing a 32x32 image with 3 color channels red, green and blue. How do you reshape this into a column vector $x$?
+3. Suppose img is a (32,32,3) array, representing a 32x32 image with 3 color channels red, green and blue. How do you reshape this into a column vector $x$?
 
     - [ ] x = img.reshape((1, 32\*32, 3))
     - [ ] x = img.reshape((3, 32\*32))
     - [x] x = img.reshape((32\*32\*3, 1))
     - [ ] x = img.reshape((32\*32, 3))
-    > <spane style="color: green;">**Correct**</span>
+    > ✔️ <spane style="color: green;">**Correct**</span>
 
 ---
 
@@ -54,7 +54,7 @@
     - [ ] c.shape = (3, 3)
     - [ ] c.shape = (2, 3, 3)
     - [x] The computation cannot happen becausse it is not possible to broadcast more than one dimension
-    > <spane style="color: green;">**Correct**</br>Yes. It is not possible to broadcast together a and b. In this case there is no way to generate copies of one of the arrays to match the size of the other.</span>
+    > ✔️ <spane style="color: green;">**Correct**</br>Yes. It is not possible to broadcast together a and b. In this case there is no way to generate copies of one of the arrays to match the size of the other.</span>
 
 ---
 
@@ -72,7 +72,7 @@
    - [ ] The computation cannot happen because the sizes don't match.
    - [ ] c.shape = (1,3)
    - [x] c.shape = (3,3)
-    > <spane style="color: green;">**Correct**</br>Yes. Broadcasting allows row a to be multiplied element-wise with each row of b to from c.</span>
+    > ✔️ <spane style="color: green;">**Correct**</br>Yes. Broadcasting allows row a to be multiplied element-wise with each row of b to from c.</span>
 
 ---
 
@@ -82,11 +82,11 @@
     - [ ] $(m, n_x)$
     - [ ] $(m, 1)$
     - [ ] $(1, m)$
-    > <spane style="color: green;">**Correct**</span>
+    > ✔️ <spane style="color: green;">**Correct**</span>
 
 ---
 
-1. Consider the following array:
+7. Consider the following array:
 
    $a = np.array([[2, 1], [1, 3]])$
 
@@ -96,7 +96,7 @@
     - [ ] $\left \lparen \matrix {4 & 2 \cr 2 & 6} \right \rparen$
     - [ ] The computation cannot happen because the sizes don't match. It's going to be an "Error"!
     - [ ] $\left \lparen \matrix {4 & 2 \cr 2 & 6} \right \rparen$
-    > <spane style="color: green;">**Correct**</br>Yes, recall that * indicates element-wise multiplication.</span>
+    > ✔️ <spane style="color: green;">**Correct**</br>Yes, recall that * indicates element-wise multiplication.</span>
 
 ---
 
@@ -118,7 +118,7 @@
     - [x] c = a + b.T
     - [ ] c = a + b
     - [ ] c = a.T + b
-    > <spane style="color: green;">**Correct**</span>
+    > ✔️ <spane style="color: green;">**Correct**</span>
 
 ---
 
@@ -141,7 +141,7 @@
    c[i][j] = a[i][j]\*\*2 + b[i][j]\*\*2
    - [ ] for i in range(3):</br>
    c[i] = a[i]\*\*2 + b[i]\*\*2
-    > <spane style="color: green;">**Correct**</br>Yes. This code squares each entry of a and adds it to the transpose of b square.</span>
+    > ✔️ <spane style="color: green;">**Correct**</br>Yes. This code squares each entry of a and adds it to the transpose of b square.</span>
 
 ---
 
@@ -155,4 +155,4 @@
     - [ ] $ab+bc+ac$
     - [ ] $(c-1)(a+c)$
     - [x] $(a+c)(b-1)$
-    > <spane style="color: green;">**Correct**</br>Yes. $J=u-v+w=ab-(a+c)+bc=ab-a+bc-c=a(b-1)+c(b-1)=(a+c)(b-1)$</span>
+    > ✔️ <spane style="color: green;">**Correct**</br>Yes. $J=u-v+w=ab-(a+c)+bc=ab-a+bc-c=a(b-1)+c(b-1)=(a+c)(b-1)$</span>
