@@ -13,12 +13,12 @@
 1. Which of the following are true? (Check all that apply.)
 
    - [x]  $a^{[2]}$ denotes the activation vector of the second layer.
-   - [ ]  $a^{[3](2)}$ denotes the activation vector of the second layer for the third example.
+   - [ ]  $a^{[3]\(2\)}$ denotes the activation vector of the second layer for the third example.
    - [ ]  $a^{[3]}_{3}$ denotes the activation vector of the second layer for the third example.
    - [x]  $w^{[4]}_{3}$ is the column vector of parameters of the fourth layer and third neuron.  
    - [ ]  $w^{[4]}_{3}$ is the column vector of parameters of the third layer and fourth neuron.
    - [ ]  $w^{[4]}_{3}$ is the row vector of parameters of the fourth layer and third neuron.
-    > <spane style="color: green;">**Correct**</br>Great, you got all the right answers.</span>
+   > ✔ <spane style="color: green;">**Correct**</br>Great, you got all the right answers.</span>
 
 ---
 
@@ -26,7 +26,7 @@
 
     - [ ] True
     - [x] False
-    > <spane style="color: green;">**Correct**</br>Yes. As seen in lecture the output of the tanh is between -1 and 1, it thus centers the data which makes the learning simpler for the next layer.</span>
+    > ✔ <spane style="color: green;">**Correct**</br>Yes. As seen in lecture the output of the tanh is between -1 and 1, it thus centers the data which makes the learning simpler for the next layer.</span>
 
 ---
 
@@ -36,7 +36,7 @@
     - [ ] $Z^{[2]} = W^{[2]} \, X + b^{[2]}$</br>$A^{[2]} = g^{[2]}(Z^{[2]})$
     - [x] $Z^{[2]} = W^{[2]} \, A^{[1]} + b^{[2]}$</br>$A^{[2]} = g^{[2]}(Z^{[2]})$
     - [ ] $Z^{[2]} = W^{[2]} \, A^{[1]} + b^{[2]}$</br>$A^{[2]} = g(Z^{[2]})$
-    > <spane style="color: green;">**Correct**</br>Yes. The elements of layer two are represented using a superscript in brackets.</span>
+    > ✔ <spane style="color: green;">**Correct**</br>Yes. The elements of layer two are represented using a superscript in brackets.</span>
 
 ---
 
@@ -44,7 +44,7 @@
 
     - [x] False
     - [ ] True
-    > <span style="color: red;">**Incorrect**.</br>Using tanh almost always works better than the sigmoid function for hidden layers</span>
+    > ✖️ <span style="color: red;">**Incorrect**.</br>Using tanh almost always works better than the sigmoid function for hidden layers</span>
 
 ---
 
@@ -60,7 +60,7 @@
     - [ ] (4,)
     - [ ] (1,3)
     - [x] (4,1)
-    > <spane style="color: green;">**Correct**</br>Yes, we use (keepdims = True) to make sure that A.shape is (4,1) and not (4, ). It makes our code more robust.</span>
+    > ✔ <spane style="color: green;">**Correct**</br>Yes, we use (keepdims = True) to make sure that A.shape is (4,1) and not (4, ). It makes our code more robust.</span>
 
 ---
 
@@ -70,7 +70,7 @@
     - [x] Initialize the weights to small random numbers.
     - [ ] Initialize all weights to 0.
     - [ ] Initialize all weights to a single number chosen randomly.
-    > <spane style="color: green;">**Correct**</br>The use of random numbers helps to "break the symmetry" between all the neurons allowing them to compute different functions. When using small random numbers the values $z^{[k]}$ will be close to zero thus the activation values will have a larger gradient speeding up the training process.</span>
+    > ✔ <spane style="color: green;">**Correct**</br>The use of random numbers helps to "break the symmetry" between all the neurons allowing them to compute different functions. When using small random numbers the values $z^{[k]}$ will be close to zero thus the activation values will have a larger gradient speeding up the training process.</span>
 
 ---
 
@@ -79,7 +79,7 @@
     - [ ] False
     - [x] True
 
-    > <span style="color: red;">**Incorrect**.</br>The logistic regression model can be expressed by $\hat{y} = \sigma(Wx+b)$ This is the same as $a^{[1]} = \sigma(W^{[1]}X+b)$.</span>
+    > ✖️ <span style="color: red;">**Incorrect**.</br>The logistic regression model can be expressed by $\hat{y} = \sigma(Wx+b)$ This is the same as $a^{[1]} = \sigma(W^{[1]}X+b)$.</span>
 
 ---
 
@@ -90,7 +90,7 @@
     - [x] The tanh is mathematically a shifted version of the sigmoid function.
     - [ ] The derivative at $c = 0$ is not well defined.
     - [ ] For large values the slope is larger.
-    > <spane style="color: green;">**Correct**</br>Great, you got all the right answers.</span>
+    > ✔ <spane style="color: green;">**Correct**</br>Great, you got all the right answers.</span>
 
 ---
 
@@ -106,7 +106,7 @@
    - [x] $b^{[1]}$ will have shape (2, 1)
    - [ ] $W^{[1]}$ will have shape (4, 2)
    - [x] $W^{[1]}$ will have shape (2, 4)
-    > <spane style="color: green;">**Correct**</br>Great, you got all the right answers.</span>
+    > ✔ <spane style="color: green;">**Correct**</br>Great, you got all the right answers.</span>
 
 ---
 
@@ -120,4 +120,4 @@
     - [ ] $Z^{[1]}$ and $A^{[1]}$ are (4,1)
     - [x] $Z^{[1]}$ and $A^{[1]}$ are (2,m)
     - [ ] $Z^{[1]}$ and $A^{[1]}$ are (2,1)
-    > <spane style="color: green;">**Correct**</br>Yes. The $Z^{[1]}$ and $A^{[1]}$ are calculated over a batch of training examples. The number of columns in $Z^{[1]}$ and $A^{[1]}$ is equal to the number of examples in the batch, m. And the number of rows in $Z^{[1]}$ and $A^{[1]}$ is equal to the number of neurons in the first layer.</span>
+    > ✔ <spane style="color: green;">**Correct**</br>Yes. The $Z^{[1]}$ and $A^{[1]}$ are calculated over a batch of training examples. The number of columns in $Z^{[1]}$ and $A^{[1]}$ is equal to the number of examples in the batch, m. And the number of rows in $Z^{[1]}$ and $A^{[1]}$ is equal to the number of neurons in the first layer.</span>
