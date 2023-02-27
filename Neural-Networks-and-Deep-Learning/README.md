@@ -1,5 +1,11 @@
 # Neural Networks and Deep Learning
 
+**by** <a href="https://DeepLearning.AI/">DeepLearning.AI</a>
+
+**Taught by**: <a href="https://www.coursera.org/instructor/andrewng">Andrew Ng</a>
+
+**Student**: <a href="https://maryamsaeedmehr.github.io/">Maryam Saeidmehr</a>
+
 ## About this Course
 
 In the first course of the Deep Learning Specialization, you will study the foundational concept of neural networks and deep learning. 
