@@ -1,0 +1,14 @@
+# References
+
+- Week 2
+
+  - GitHub: <a href="https://github.com/dennybritz/nn-from-scratch">Implementing a Neural Network from Scratch in Python – An Introduction</a> (Denny Britz, 2015)
+  - <a href="https://stats.stackexchange.com/questions/211436/why-normalize-images-by-subtracting-datasets-image-mean-instead-of-the-current">Why normalize images by subtracting dataset's image mean, instead of the current image mean in deep learning?</a> (Stack Exchange)
+
+- Week 3
+
+  - <a href="https://cs231n.github.io/neural-networks-case-study/">CS231n: Convolutional Neural Networks for Visual Recognition</a> (Stanford University)
+
+- Week 4
+
+  - <a href="https://stackoverflow.com/questions/1907993/autoreload-of-modules-in-ipython">Autoreload of modules in IPython</a> (Stack Overflow)

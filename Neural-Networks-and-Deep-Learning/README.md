@@ -161,3 +161,10 @@ the knowledge and skills to apply machine learning to your work, level up your t
   
     </details>
 
+## Certificate
+
+  <object data="Certificate.pdf" type="application/pdf" width="700px" height="700px">
+      <embed src="Certificate.pdf">
+          <p>This browser does not support PDFs. Please download the PDF to view it: <a href="Certificate.pdf">Download PDF</a>.</p>
+      </embed>
+  </object>
