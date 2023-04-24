@@ -163,8 +163,6 @@ the knowledge and skills to apply machine learning to your work, level up your t
 
 ## Certificate
 
-  <object data="Certificate.pdf" type="application/pdf" width="700px" height="700px">
-      <embed src="Certificate.pdf">
-          <p>This browser does not support PDFs. Please download the PDF to view it: <a href="Certificate.pdf">Download PDF</a>.</p>
-      </embed>
-  </object>
+  ![Screenshot from 2023-04-24 18-12-23](https://user-images.githubusercontent.com/60509979/234031148-d8699338-b369-4c24-83a8-45df6f157b27.png)
+  
+  [Certificate.pdf](https://github.com/BitterOcean/coursera-deep-learning-specialization/blob/main/Neural-Networks-and-Deep-Learning/Certificate.pdf)
