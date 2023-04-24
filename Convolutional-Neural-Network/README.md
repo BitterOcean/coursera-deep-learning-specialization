@@ -148,37 +148,37 @@ The Deep Learning Specialization is our foundational program that will help you 
 
 - <details open><summary><h2>Week 4</h2></summary>
 
-### Special Applications: Face recognition & Neural Style Transfer
+  ### Special Applications: Face recognition & Neural Style Transfer
 
-  Explore how CNNs can be applied to multiple fields, including art generation and face recognition, then implement your own algorithm to generate art and recognize faces!
+    Explore how CNNs can be applied to multiple fields, including art generation and face recognition, then implement your own algorithm to generate art and recognize faces!
 
-  <details>
-    <summary>📂 11 videos, 4 readings</summary>
+    <details>
+      <summary>📂 11 videos, 4 readings</summary>
 
-    - Video: What is Face Recognition?
-    - Video: One Shot Learning
-    - Video: Siamese Network
-    - Video: Triplet Loss
-    - Reading: Clarifications about Upcoming Face Verification and Binary Classification Video
-    - Video: Face Verification and Binary Classification
-    - Video: What is Neural Style Transfer?
-    - Video: What are deep ConvNets learning?
-    - Video: Cost Function
-    - Video: Content Cost Function
-    - Reading: Clarifications about Upcoming Style Cost Function Video
-    - Video: Style Cost Function
-    - Video: 1D and 3D Generalizations
-    - App Item: Lecture Notes W4
-    - Reading: References
-    - Reading: Acknowledgments
+      - Video: What is Face Recognition?
+      - Video: One Shot Learning
+      - Video: Siamese Network
+      - Video: Triplet Loss
+      - Reading: Clarifications about Upcoming Face Verification and Binary Classification Video
+      - Video: Face Verification and Binary Classification
+      - Video: What is Neural Style Transfer?
+      - Video: What are deep ConvNets learning?
+      - Video: Cost Function
+      - Video: Content Cost Function
+      - Reading: Clarifications about Upcoming Style Cost Function Video
+      - Video: Style Cost Function
+      - Video: 1D and 3D Generalizations
+      - App Item: Lecture Notes W4
+      - Reading: References
+      - Reading: Acknowledgments
 
-  </details>
+    </details>
 
-  🔬**Graded**: Special Applications: Face Recognition & Neural Style Transfer
+    🔬**Graded**: Special Applications: Face Recognition & Neural Style Transfer
 
-  🔬**Graded**: Face Recognition
+    🔬**Graded**: Face Recognition
 
-  🔬**Graded**: Art Generation with Neural Style Transfer
+    🔬**Graded**: Art Generation with Neural Style Transfer
 
 </details>
 
