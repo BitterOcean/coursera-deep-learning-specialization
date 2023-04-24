@@ -183,8 +183,8 @@ The Deep Learning Specialization is our foundational program that will help you 
 </details>
 
 ## Certificate
-
-  ![Screenshot from 2023-04-24 18-12-23](https://user-images.githubusercontent.com/60509979/234031148-d8699338-b369-4c24-83a8-45df6f157b27.png)
+  
+  ![Screenshot from 2023-04-24 19-10-57](https://user-images.githubusercontent.com/60509979/234047693-3675a684-e024-43e8-88eb-7326ec68846f.png)
   
 - ![IssuingOrganization](https://img.shields.io/badge/Issuing%20Organization-Coursera-informational)
 - ![IssueDate](https://img.shields.io/badge/Issue%20Date-Oct%202022-informational)
