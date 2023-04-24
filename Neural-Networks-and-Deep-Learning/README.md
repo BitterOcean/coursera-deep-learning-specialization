@@ -24,7 +24,7 @@ the knowledge and skills to apply machine learning to your work, level up your t
 | ⏰ Commitment  | At the rate of 5 hours a week, it takes roughly 5 weeks to finish each course in the Specialization.  |
 | 🔤 Language  | English, **Subtitles**: Chinese (Traditional), Arabic, French, Ukrainian, Portuguese (European), Chinese (Simplified), Italian, Portuguese (Brazilian), Vietnamese, Korean, German, Russian, Turkish, Spanish, Japanese</br> <a href="https://www.coursera.org/learn/neural-networks-deep-learning/home/info#">Volunteer to translate subtitles for this course</a>  |
 | 🧑‍🎓 How To Pass	Pass  |  all graded assignments to complete the course. |
-| ⭐ User Ratings  | ![Rating](https://img.shields.io/redmine/plugin/stars/redmine_xlsx_format_issue_exporter?label=Rating&logo=Rating&style=plastic) Average User Rating 4.9 |
+| ⭐ User Ratings  | ![Rating](https://img.shields.io/badge/rating-4.9-brightgreen) |
 
 ## Syllabus
 
@@ -165,4 +165,8 @@ the knowledge and skills to apply machine learning to your work, level up your t
 
   ![Screenshot from 2023-04-24 18-12-23](https://user-images.githubusercontent.com/60509979/234031148-d8699338-b369-4c24-83a8-45df6f157b27.png)
   
-  [Certificate.pdf](https://github.com/BitterOcean/coursera-deep-learning-specialization/blob/main/Neural-Networks-and-Deep-Learning/Certificate.pdf)
+  - ![IssuingOrganization](https://img.shields.io/badge/Issuing%20Organization-Coursera-informational)
+  - ![IssueDate](https://img.shields.io/badge/Issue%20Date-Apr%202023-informational)
+  - ![CredentialID](https://img.shields.io/badge/Credential%20ID-XHL4HFTWRGYY-informational)
+  - <a href="https://www.coursera.org/account/accomplishments/certificate/XHL4HFTWRGYY">![CredentialLink](https://img.shields.io/badge/Credential%20Link-https://www.coursera.org/account/accomplishments/certificate/XHL4HFTWRGYY-informational)</a>
+  - <a href="https://github.com/BitterOcean/coursera-deep-learning-specialization/blob/main/Neural-Networks-and-Deep-Learning/Certificate.pdf">![CertificateDownload](https://img.shields.io/badge/Certificate-Download%20PDF-informational)</a>
