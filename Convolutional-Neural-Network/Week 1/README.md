@@ -10,14 +10,14 @@
 
 ---
 
-1. What do you think applying this filter to a grayscale image will do?
+1. What do you think applying this filter to a grayscale image will do? 
 
-    $\begin{bmatrix}
-        0 & 1 & 1 & 0 \\
-        1 & 3 & 3 & 1 \\
-        -1 & -3 & -3 & -1 \\
-        0 & -1 & -1 & 0
-    \end{bmatrix}$
+    $$\begin{bmatrix}
+    0 & 1 & 1 & 0 \\
+    1 & 3 & 3 & 1 \\
+    -1 & -3 & -3 & -1 \\
+    0 & -1 & -1 & 0
+    \end{bmatrix}$$
 
    - [ ] Detect 45-degree edges.
    - [ ] Detect vertical edges.
