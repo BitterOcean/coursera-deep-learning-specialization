@@ -3,6 +3,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+*/Week 1/*_Files/
+*/Week 2/*_Files/
+*/Week 3/*_Files/
+*/Week 4/*_Files/
+
 # C extensions
 *.so
 
