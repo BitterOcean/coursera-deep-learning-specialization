@@ -1,4 +1,4 @@
-# **Introduction to Deep Learning**
+# **Practical aspects of Deep Learning**
 
 ## <span style="color: green;">**Congratulations! You passed!**</span>
 
@@ -10,96 +10,100 @@
 
 ---
 
-1. Which of the following best describes the role of AI in the expression "an AI-powered society"?
+1. If you have 10,000 examples, how would you split the train/dev/test set? Choose the best option.
 ✔️
-   - [x] AI controls the power grids for energy distribution, so all the power needed for industry and in daily life comes from AI.
-   - [ ] AI helps to create a more efficient way of producing energy to power industries and personal devices.
-   - [ ] AI is an essential ingredient in realizing tasks, in industry and in personal life.
-    > ✖️ <span style="color: red;">**Incorrect**</br>No. There will always be areas in the world where AI is not a feasible option because of lack of infrastructures.</span>
+   - [ ] 60% train. 20% dev. 20% test.
+   - [ ] 33% train. 33% dev. 33% test.
+   - [x] 98% train. 1% dev. 1% test.
+    > ✖️ <span style="color: red;">**Incorrect**</br>No. This might be considered a small data set, not in the range of big data. Thus a more classical (old) best practice should be used.</span>
 
 ---
 
-2. Which of the following play a major role to achieve a very high level of performance with Deep Learning algorithms?
+2. The dev and the test set should be:
 
-    - [ ] Better designed features to use.
-    - [ ] Large models.
-    - [ ] Smaller models.
-    - [x] Large amounts of data.
-    - [ ] Deep learning has resulted in significant improvements in important applications such as online advertising, speech recognition, and image recognition.
-    > ✖️ <span style="color: red;">**Incorrect**.</br>You didn't select all the correct answers</span>
+    - [ ] Come from different distributions.
+    - [ ] Have the same number of examples.
+    - [x] Come from the same distribution.
+    - [ ] Be identical to each other (same (x,y) pairs).
+    > ✔️ <span style="color: green;">**Correct**</span>
 
 ---
 
-3. Recall this diagram of iterating over different ML ideas. Which of the statements below are true? (Check all that apply.)
-![q3.png](img/q3.png)
+3. If your Neural Network model seems to have high bias, what of the following would be promising things to try? (Check all that apply.)
 
-    - [ ] Better algorithms allow engineers to get more data and then produce better Deep Learning models.
-    - [x] Improvements in the GPU/CPU hardware enable the discovery of better Deep Learning algorithms.
-    - [ ] Larger amounts of data allow researchers to try more ideas and then produce better algorithms in less time.
-    - [x] Better algorithms can speed up the iterative process by reducing the necessary computation time
+    - [ ] Add regularization.
+    - [x] Make the Neural Network deeper.
+    - [x] Increase the number of units in each hidden layers.
+    - [ ] Get more training data.
     > ✔️ <spane style="color: green;">**Correct**</br>Great, you got all the right answers.</span>
 
 ---
 
-4. Neural networks are good at figuring out functions relating an input $x$ to an output $y$ given enough examples. True/False?
+4. Working on a model to classify bananas and oranges your classifier gets a training set error of 0.1% and a dev set error of 11%. Which of the following two are true?
 
-    - [ ] False
-    - [x] True
-    > ✔️ <span style="color: green;">**Correct**</br>Exactly, with neural networks, we don't need to "design" features by ourselves. The neural network figures out the necessary relations given enough data.</span>
-
----
-
-5. Which one of these plots represents a ReLU activation function?
-
-    - [ ] ![q5_f1.png](img/q5_f1.png)
-    - [ ] ![q5_f2.png](img/q5_f2.png)
-    - [x] ![q5_f3.png](img/q5_f3.png)
-    - [ ] ![q5_f4.png](img/q5_f4.png)
-    > ✔️ <spane style="color: green;">**Correct**</br>This is the ReLU activation function, the most used in neural networks.</span>
-
----
-
-6. Which of the following are examples of unstructured data? Choose all that apply.
-
-    - [x] Sound files for speech recognition
-    - [x] Images for bird recognition
-    - [ ] Information about elephants’ weight, height, age, and the number of offspring.
-    - [x] Text describing size and number of pages of books
+    - [x] The model has a high variance.
+    - [ ] The model is overfitting the dev set.
+    - [x] The model is overfitting the train set.
+    - [ ] The model has a very high bias.
     > ✔️ <spane style="color: green;">**Correct**</br>Great, you got all the right answers.</span>
 
 ---
 
-7. A demographic dataset with statistics on different cities' population, GDP per capita, and economic growth is an example of “unstructured” data because it contains data coming from different sources. True/False?
+5. In every case it is a good practice to use dropout when training a deep neural network because it can help to prevent overfitting. True/False?
 
-    - [ ] True
-    - [x] False
-    > ✔️ <spane style="color: green;">**Correct**</br>A demographic dataset with statistics on different cities' population, GDP per capita, and economic growth is an example of “structured” data in contrast to image, audio or text datasets.</span>
-
----
-
-8. RNNs (Recurrent Neural Networks) are good for data with a temporal component. True/False?
-
-    - [ ] False
     - [x] True
-    > ✔️ <spane style="color: green;">**Correct**</br>Yes, RNN are designed to work with sequences; the elements of a sequence can be sorted by a temporal component.</span>
+    - [ ] False
+    > ✖️ <spane style="color: red;">**Incorrect**</br>Incorrect. In most cases, it is recommended to not use dropout if there is no overfit. Although in computer vision, due to the nature of the data, it is the default practice.</span>
 
 ---
 
-9. In this diagram which we hand-drew in the lecture, what do the horizontal axis (x-axis) and vertical axis (y-axis) represent?
-![q9.png](img/q9.png)
+6. What happens when you increase the regularization hyperparameter lambda?
 
-    - [ ] x-axis is the input to the algorithm</br>y-axis is outputs.
-    - [x] x-axis is the amount of data</br>y-axis (vertical axis) is the performance of the algorithm
-    - [ ] x-axis is the performance of the algorithm</br>y-axis (vertical axis) is the amount of data.
-    - [ ] x-axis is the amount of data</br>y-axis is the size of the model you train.
+    - [ ] Gradient descent taking bigger steps with each iteration (proportional to lambda)
+    - [x] Weights are pushed toward becoming smaller (closer to 0)
+    - [ ] Weights are pushed toward becoming bigger (further from 0)
+    - [ ] Doubling lambda should roughly result in doubling the weights
     > ✔️ <spane style="color: green;">**Correct**</span>
 
 ---
 
-10. Assuming the trends described in the previous question's figure are accurate (and hoping you got the axis labels right), which of the following are true? (Check all that apply.)
+7. Which of the following are true about dropout? 
 
-    - [ ] Decreasing the size of a neural network generally does not hurt an algorithm’s performance, and it may help significantly.
-    - [ ] Decreasing the training set size generally does not hurt an algorithm’s performance, and it may help significantly.
-    - [x] Increasing the training set size generally does not hurt an algorithm's performance, and it may help significantly
-    - [x] Increasing the size of neural network generally does not hurt an algorithm's performance, and it may help significantly
+    - [ ] It helps to reduce the bias of the model.
+    - [ ] In practice, it eliminates units of each layer with a probability of keep_prob.
+    - [x] It helps to reduce overfitting.
+    - [x] In practice, it eliminates units of each layer with a probability of 1- keep_prob.
     > ✔️ <spane style="color: green;">**Correct**</br>Great, you got all the right answers.</span>
+
+---
+
+8. During training a deep neural network that uses the tanh activation function, the value of the gradients is practically zero. Which of the following is most likely to help the vanishing gradient problem?
+
+    - [ ] Use a larger regularization parameter.
+    - [x] Use Xavier initialization.
+    - [ ] Increase the number of cycles during the training.
+    - [ ] Increase the number of layers of the network.
+    > ✔️ <spane style="color: green;">**Correct**</br>Correct. A careful initialization can help reduce the vanishing gradient problem.</span>
+
+---
+
+9. Which of these techniques are useful for reducing variance (reducing overfitting)? (Check all that apply.)
+
+    - [ ] Gradient Checking
+    - [ ] Xavier initialization
+    - [ ] Exploding gradient
+    - [x] Data augmentation
+    - [x] Dropout
+    - [ ] Vanishing gradient
+    - [x] L2 regularization
+    > ✔️ <spane style="color: green;">**Correct**</br>Great, you got all the right answers.</span>
+
+---
+
+10. Suppose that a model uses, as one feature, the total number of kilometers walked by a person during a year, and another feature is the height of the person in meters. What is the most likely effect of normalization of the input data?
+
+    - [x] It will make the training faster.
+    - [ ] It will make the data easier to visualize.
+    - [ ] It will increase the variance of the model.
+    - [ ] It won't have any positive or negative effects.
+    > ✔️ <spane style="color: green;">**Correct**</br>Correct. Since the difference between the ranges of the features is very different, this will likely cause the process of gradient descent to oscillate, making the optimization process longer.</span>
