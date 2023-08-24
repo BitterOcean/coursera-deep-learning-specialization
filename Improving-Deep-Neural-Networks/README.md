@@ -134,10 +134,10 @@ the knowledge and skills to apply machine learning to your work, level up your t
 
 ## Certificate
 
-  ![Screenshot from 2023-04-24 18-12-23](https://user-images.githubusercontent.com/60509979/234031148-d8699338-b369-4c24-83a8-45df6f157b27.png)
-  
+![Screenshot from 2023-08-24 18-41-04](https://github.com/BitterOcean/coursera-deep-learning-specialization/assets/60509979/9d71342f-bbf9-4e55-a526-04e04bebdb15)
+    
   - ![IssuingOrganization](https://img.shields.io/badge/Issuing%20Organization-Coursera-informational)
-  - ![IssueDate](https://img.shields.io/badge/Issue%20Date-Apr%202023-informational)
-  - ![CredentialID](https://img.shields.io/badge/Credential%20ID-XHL4HFTWRGYY-informational)
-  - <a href="https://www.coursera.org/account/accomplishments/certificate/XHL4HFTWRGYY">![CredentialLink](https://img.shields.io/badge/Credential%20Link-https://www.coursera.org/account/accomplishments/certificate/XHL4HFTWRGYY-informational)</a>
-  - <a href="https://github.com/BitterOcean/coursera-deep-learning-specialization/blob/main/Neural-Networks-and-Deep-Learning/Certificate.pdf">![CertificateDownload](https://img.shields.io/badge/Certificate-Download%20PDF-informational)</a>
+  - ![IssueDate](https://img.shields.io/badge/Issue%20Date-Aug%202023-informational)
+  - ![CredentialID](https://img.shields.io/badge/Credential%20ID-5GGFF6K26N65-informational)
+  - <a href="https://www.coursera.org/account/accomplishments/verify/5GGFF6K26N65">![CredentialLink](https://img.shields.io/badge/Credential%20Link-https://www.coursera.org/account/accomplishments/certificate/XHL4HFTWRGYY-informational)</a>
+  - <a href="https://github.com/BitterOcean/coursera-deep-learning-specialization/blob/main/Improving-Deep-Neural-Networks/Coursera%205GGFF6K26N65.pdf">![CertificateDownload](https://img.shields.io/badge/Certificate-Download%20PDF-informational)</a>
