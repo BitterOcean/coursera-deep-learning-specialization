@@ -1,4 +1,4 @@
-# Neural Networks and Deep Learning
+# Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization
 
 **by** <a href="https://DeepLearning.AI/">DeepLearning.AI</a>
 
@@ -8,7 +8,7 @@
 
 ## About this Course
 
-In the first course of the Deep Learning Specialization, you will study the foundational concept of neural networks and deep learning. 
+In the second course of the Deep Learning Specialization, you will study the foundational concept of neural networks and deep learning. 
 By the end, you will be familiar with the significant technological trends driving the rise of deep learning; build, train, and apply 
 fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s
 architecture; and apply deep learning to your own applications.
@@ -19,7 +19,7 @@ the knowledge and skills to apply machine learning to your work, level up your t
 
 | Item | Description |
 |---|---|
-| 📓 Basic Info  |  Course 1 of 5 in the <a href="https://www.coursera.org/specializations/deep-learning">Deep Learning Specialization</a>  |
+| 📓 Basic Info  |  Course 2 of 5 in the <a href="https://www.coursera.org/specializations/deep-learning">Deep Learning Specialization</a>  |
 | ⚖️ Level  | Intermediate  |
 | ⏰ Commitment  | At the rate of 5 hours a week, it takes roughly 5 weeks to finish each course in the Specialization.  |
 | 🔤 Language  | English, **Subtitles**: Chinese (Traditional), Arabic, French, Ukrainian, Portuguese (European), Chinese (Simplified), Italian, Portuguese (Brazilian), Vietnamese, Korean, German, Russian, Turkish, Spanish, Japanese</br> <a href="https://www.coursera.org/learn/neural-networks-deep-learning/home/info#">Volunteer to translate subtitles for this course</a>  |
@@ -30,136 +30,107 @@ the knowledge and skills to apply machine learning to your work, level up your t
 
 - <details open><summary><h2>Week 1</h2></summary>
 
-  ### Introduction to Deep Learning
-    Analyze the major trends driving the rise of deep learning, and give examples of where and how it is applied today.
+  ### Practical Aspects of Deep Learning
+    Discover and experiment with a variety of different initialization methods, apply L2 regularization and dropout to avoid model overfitting, then apply gradient checking to identify errors in a fraud detection model.
 
     <details>
-      <summary>📂 6 videos, 1 reading</summary>
+      <summary>📂 15 videos, 4 reading</summary>
 
-  - Video: Welcome
-  - Video: What is a Neural Network?
-  - Video: Supervised Learning with Neural Networks
-  - Video: Why is Deep Learning taking off?
-  - Video: About this Course
-  - LTI Item: Intake Survey
-  - LTI Item: [IMPORTANT] Have questions, issues or ideas? Join our Community!
-  - Reading: Frequently Asked Questions
-  - LTI Item: Lecture Notes W1
-  - Video: Geoffrey Hinton Interview
+  - Video: Train / Dev / Test sets
+  - Video: Bias / Variance
+  - Video: Basic Recipe for Machine Learning
+  - App Item: [IMPORTANT] Have questions, issues or ideas? Join our Community!
+  - Reading: Clarification about Upcoming Regularization Video
+  - Video: Regularization
+  - Video: Why Regularization Reduces Overfitting?
+  - Video: Dropout Regularization
+  - Reading: Clarification about Upcoming Understanding Dropout Video
+  - Video: Understanding Dropout
+  - Video: Other Regularization Methods
+  - Video: Normalizing Inputs
+  - Video: Vanishing / Exploding Gradients
+  - Video: Weight Initialization for Deep Networks
+  - Video: Numerical Approximation of Gradients
+  - Video: Gradient Checking
+  - Video: Gradient Checking Implementation Notes
+  - Reading: Lecture Notes W1
+  - Reading: (Optional) Downloading your Notebook, Downloading your Workspace and Refreshing your Workspace
+  - Video: Yoshua Bengio Interview
 
     </details>
 
-    🔬**Graded**: Introduction to Deep Learning
+    🔬**Graded**: Practical aspects of Deep Learning
+    🔬**Graded**: Initialization
+    🔬**Graded**: Regularization
+    🔬**Graded**: Gradient Checking
 
   </details>
 ---  
   - <details open><summary><h2>Week 2</h2></summary>
 
-    ### Neural Networks Basics
-      Set up a machine learning problem with a neural network mindset and use vectorization to speed up your models.
+    ### Optimization Algorithms
+      Develop your deep learning toolbox by adding more advanced optimizations, random minibatching, and learning rate decay scheduling to speed up your models.
 
       <details>
-        <summary>📂 19 videos, 5 readings</summary>
+        <summary>📂 11 videos, 3 readings</summary>
 
-    - Video: Binary Classification
-    - Video: Logistic Regression
-    - Video: Logistic Regression Cost Function
-    - Video: Gradient Descent
-    - Video: Derivatives
-    - Video: More Derivative Examples
-    - Video: Computation Graph
-    - Video: Derivatives with a Computation Graph
-    - Video: Logistic Regression Gradient Descent
-    - Video: Gradient Descent on m Examples
-    - Reading: Derivation of DL/dz (Optional)
-    - Video: Vectorization
-    - Video: More Vectorization Examples
-    - Video: Vectorizing Logistic Regression
-    - Video: Vectorizing Logistic Regression's Gradient Output
-    - Video: Broadcasting in Python
-    - Video: A Note on Python/Numpy Vectors
-    - Video: Quick tour of Jupyter/iPython Notebooks
-    - Video: Explanation of Logistic Regression Cost Function (Optional)
-    - LTI Item: Lecture Notes W2
-    - Reading: Deep Learning Honor Code
-    - Reading: Programming Assignment FAQ
-    - Reading: How to Download your Notebook
-    - Reading: How to Refresh your Workspace
-    - Ungraded Programming Assignment: Python Basics with Numpy
-    - Video: Pieter Abbeel Interview
-
+    - Video: Mini-batch Gradient Descent
+    - Video: Understanding Mini-batch Gradient Descent
+    - Video: Exponentially Weighted Averages
+    - Video: Understanding Exponentially Weighted Averages
+    - Video: Bias Correction in Exponentially Weighted Averages
+    - Video: Gradient Descent with Momentum
+    - Video: RMSprop
+    - Reading: Clarification about Upcoming Adam Optimization Video
+    - Video: Adam Optimization Algorithm
+    - Reading: Clarification about Learning Rate Decay Video
+    - Video: Learning Rate Decay
+    - Video: The Problem of Local Optima
+    - Reading: Lecture Notes W2
+    - Video: Yuanqing Lin Interview
 
       </details>
 
-      🔬**Graded**: Neural Network Basics
+      🔬**Graded**: Optimization Algorithms
   
-      🔬**Graded**: Logistic Regression with a Neural Network Mindset
+      🔬**Graded**: Optimization Methods
   
     </details>
 ---
   - <details open><summary><h2>Week 3</h2></summary>
 
-    ### Shallow Neural Networks
-      Build a neural network with one hidden layer, using forward propagation and backpropagation.
+    ### Hyperparameter Tuning, Batch Normalization and Programming Frameworks
+      Explore TensorFlow, a deep learning framework that allows you to build neural networks quickly and easily, then train a neural network on a TensorFlow dataset.
 
       <details>
-        <summary>📂 12 videos</summary>
+        <summary>📂 11 videos, 6 readings</summary>
 
-    - Video: Neural Networks Overview
-    - Video: Neural Network Representation
-    - Video: Computing a Neural Network's Output
-    - Video: Vectorizing Across Multiple Examples
-    - Video: Explanation for Vectorized Implementation
-    - Video: Activation Functions
-    - Video: Why do you need Non-Linear Activation Functions?
-    - Video: Derivatives of Activation Functions
-    - Video: Gradient Descent for Neural Networks
-    - Video: Backpropagation Intuition (Optional)
-    - Video: Random Initialization
-    - LTI Item: Lecture Notes W3
-    - Video: Ian Goodfellow Interview
-
-
-      </details>
-
-      🔬**Graded**: Shallow Neural Networks
-  
-      🔬**Graded**: Planar Data Classification with One Hidden Layer
-  
-    </details>
----
-  - <details open><summary><h2>Week 4</h2></summary>
-
-    ### Deep Neural Networks
-      Analyze the key computations underlying deep learning, then use them to build and train deep neural networks for computer vision tasks.
-
-      <details>
-        <summary>📂 8 videos, 5 readings</summary>
-
-    - Video: Deep L-layer Neural Network
-    - Video: Forward Propagation in a Deep Network
-    - Video: Getting your Matrix Dimensions Right
-    - Video: Why Deep Representations?
-    - Video: Building Blocks of Deep Neural Networks
-    - Video: Forward and Backward Propagation
-    - Reading: Optional Reading: Feedforward Neural Networks in Depth
-    - Video: Parameters vs Hyperparameters
-    - Reading: Clarification For: What does this have to do with the brain?
-    - Video: What does this have to do with the brain?
-    - LTI Item: Lecture Notes W4
-    - Reading: Confusing Output from the AutoGrader
+    - Video: Tuning Process
+    - Video: Using an Appropriate Scale to pick Hyperparameters
+    - Video: Hyperparameters Tuning in Practice: Pandas vs. Caviar
+    - Reading: Clarification about Upcoming Normalizing Activations in a Network Video
+    - Video: Normalizing Activations in a Network
+    - Video: Fitting Batch Norm into a Neural Network
+    - Video: Why does Batch Norm work?
+    - Video: Batch Norm at Test Time
+    - Reading: Clarifications about Upcoming Softmax Video
+    - Video: Softmax Regression
+    - Video: Training a Softmax Classifier
+    - Video: Deep Learning Frameworks
+    - Video: TensorFlow
+    - Reading: (Optional) Learn about Gradient Tape and More
+    - Reading: Lecture Notes W3
     - Reading: References
     - Reading: Acknowledgments
 
       </details>
 
-      🔬**Graded**: Key Concepts on Deep Neural Networks
-  
-      🔬**Graded**: Building your Deep Neural Network: Step by Step
-  
-      🔬**Graded**: Deep Neural Network - Application
+      🔬**Graded**: Hyperparameter tuning, Batch Normalization, Programming Frameworks
+
+      🔬**Graded**: TensorFlow Introduction
   
     </details>
+
 
 ## Certificate
 
