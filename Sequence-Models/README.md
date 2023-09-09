@@ -160,7 +160,7 @@ The Deep Learning Specialization is a foundational program that will help you un
   ![Screenshot from 2023-04-24 18-12-23](https://user-images.githubusercontent.com/60509979/234031148-d8699338-b369-4c24-83a8-45df6f157b27.png)
   
   - ![IssuingOrganization](https://img.shields.io/badge/Issuing%20Organization-Coursera-informational)
-  - ![IssueDate](https://img.shields.io/badge/Issue%20Date-Apr%202023-informational)
-  - ![CredentialID](https://img.shields.io/badge/Credential%20ID-XHL4HFTWRGYY-informational)
-  - <a href="https://www.coursera.org/account/accomplishments/certificate/XHL4HFTWRGYY">![CredentialLink](https://img.shields.io/badge/Credential%20Link-https://www.coursera.org/account/accomplishments/certificate/XHL4HFTWRGYY-informational)</a>
+  - ![IssueDate](https://img.shields.io/badge/Issue%20Date-Sept%202023-informational)
+  - ![CredentialID](https://img.shields.io/badge/Credential%20ID-Q7HW9L4BYSHE-informational)
+  - <a href="https://coursera.org/share/6d2856b38ad0187c4d20fe08001e16f4">![CredentialLink](https://img.shields.io/badge/Credential%20Link-https://coursera.org/share/6d2856b38ad0187c4d20fe08001e16f4)</a>
   - <a href="https://github.com/BitterOcean/coursera-deep-learning-specialization/blob/main/Neural-Networks-and-Deep-Learning/Certificate.pdf">![CertificateDownload](https://img.shields.io/badge/Certificate-Download%20PDF-informational)</a>
